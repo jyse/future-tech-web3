@@ -18,13 +18,13 @@
 👉 Choose default as template
 👉 And click okay
 
-💠 Step 3: Use DevBots.sol in Remix
-👉 In you starter files, go to smart contracts folder and open DevBots.sol file
-👉 Select everything of the DevBots.sol file 
-👉 Copy the DevBots.sol contract 
+💠 Step 3: Use FutureTechies.sol in Remix
+👉 In you starter files, go to smart contracts folder and open FutureTechies.sol file
+👉 Select everything of the FutureTechies.sol file 
+👉 Copy the FutureTechies.sol contract 
 👉 Go back to Remix 
 👉 Click on the contracts folder with a right mouse click
-👉 Select a new file and name it DevBots.sol 
+👉 Select a new file and name it FutureTechies.sol 
 👉 Paste your code into the Remix code editor
 👀 You will see packages coming up on your left 
 
@@ -56,7 +56,7 @@
 👉 First compile your contract and fix errors 
 👉 Go to the section Deploy & Run transactions on the left side 
 👉 Make sure Remix VM (London), the local machine  is selected 
-👉 Select the right contract - DevBots.sol
+👉 Select the right contract - FutureTechies.sol
 👉 Make sure your terminal is visible on the right bottom side
 👉 And hit Deploy
 👀 You can see the transaction of contract creation in your terminal

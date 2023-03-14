@@ -7,7 +7,7 @@
 💻 for variables types are always used, like string or an unsigned integer whereby 256 represents that this integer will take up 256 bits of space in memory. 
 💻 if you see something with the word using - it means: using A for B, it means that we attach every function from library A in this case Counters, to type B Counter.
 💻 Counters is then used to set the _tokenIdCounter which is a private variable 
-💻 constructor, is like a classic constructor and to make this contract with the name of DevBots and the symbol token you see very often on OpenSea. 
+💻 constructor, is like a classic constructor and to make this contract with the name of FutureTechies and the symbol token you see very often on OpenSea. 
 💻 private, internal or public all have to do with the accessibility of the function - how much you can see or retrieve from the blockchain. 
 💻 string memory means, this string comes back from a temporary memory - so this won’t cost so much gas fees - or not at all. 
 
