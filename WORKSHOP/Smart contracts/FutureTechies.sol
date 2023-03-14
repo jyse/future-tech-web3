@@ -24,7 +24,7 @@ using Counters for Counters.Counter;
         // Step 3: Deploy a contract locally on VM Remix London
         // Step 4: Use safeMint() locally on VM Remix London
         // Step 5: Try out balanceOf, ownerOf, tokenURI functions after using safeMint()
-    function safeMint() public payable {
+    function safeMint() public {
         // Step 6: Make the safeMint function payable
         // Step 6a: Add a requirement of msg.value >= 0.001 ether
         // Step 7: Ethereum Metric System

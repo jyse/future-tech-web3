@@ -7,7 +7,7 @@ import StartMinting from "./components/StartMinting";
 import InProgressMinting from "./components/InProgressMinting";
 import CompletedMinting from "./components/CompletedMinting";
 
-// Step 1: Run the aspp
+// Step 1: Run the app
 
 function App() {
   const [inProgress, setInProgress] = useState(false);
@@ -33,9 +33,9 @@ function App() {
 
   // Step 5: Contract => getTotalSupply()
 
-  const login = async () => {
+  const connect = async () => {
     // Step 2: Connect wallet (check Metamask + accounts)
-    // Step 4: Wire up contract (providiger, signer, NFTContract)
+    // Step 4: Wire up contract (provider, signer, NFTContract)
   };
 
   const getState = () => {
@@ -72,7 +72,9 @@ function App() {
                 <p> 0 / 13 minted </p>
                 {/* // Step 3: Render a mint button conditionally */}
                 {/* // Step 7: insert getState() */}
-                <div className="button connect">Connect Wallet</div>
+                <div className="button connect" onClick={connect}>
+                  Connect Wallet
+                </div>
               </div>
             </div>
             <div className="nft-section">
